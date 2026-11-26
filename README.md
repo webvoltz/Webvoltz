@@ -64,7 +64,7 @@ Software that "works in the demo" and software that survives a Black Friday, an 
 
 We publish the actual policy that every Webvoltz repository is built and reviewed against [`webvoltz-engineering-standards`](https://github.com/webvoltz/webvoltz-engineering-standards). It's not a wiki page. It's wired into hooks and CI:
 
-- Strict TypeScript — no unsafe `any`, exhaustive switches, typed promise handling
+- Strict TypeScript - no unsafe `any`, exhaustive switches, typed promise handling
 - Zero-warning ESLint and deterministic Prettier formatting "mostly clean" doesn't pass
 - Enforced test coverage thresholds a missing test suite fails the build, not a free pass
 - Staged secret scanning (Gitleaks) before every commit
@@ -88,7 +88,7 @@ A sample of what our teams have shipped from real-time systems at scale to the a
 | [**HookGuard Webhook Engine**](https://github.com/webvoltz/hookguard-webhook-engine) | Webhook infrastructure with HMAC signing, idempotency, retries, and replay protection | TypeScript · Node.js |
 | [**WorkWise AI Automation**](https://github.com/webvoltz/workwise-ai-automation) | Structured-output AI workflows with validation, retries, and RAG patterns | TypeScript |
 
-Every project above is held to the same [engineering standard](https://github.com/webvoltz/webvoltz-engineering-standards) — strict typing, real test coverage, and CI-enforced quality gates.
+Every project above is held to the same [engineering standard](https://github.com/webvoltz/webvoltz-engineering-standards) strict typing, real test coverage, and CI-enforced quality gates.
 
 <br>
 
